@@ -1,0 +1,80 @@
+/*Global Rules*/
+ 
+*{
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: arial,tahoma
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f1f4f5
+}
+
+/*Global Rules*/
+
+p{
+   position: absolute;
+    top: 69px;
+    text-align: center;
+    line-height: 1.6;
+    color: #262626;
+    width: 900px
+}
+.mapbox{
+    position: relative;
+    width: 900px;
+    height: 600px;
+    background:#eee;
+    box-shadow:11px 13px 10px #959595, -9px -9px 10px #959595;
+}
+
+iframe{
+    width: 900px;
+    height: 600px;
+    
+}
+
+span{
+    POSITION: absolute;
+    top: 806px;
+    left: 259px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+hr{
+    position: absolute;
+    top: 846px;
+    width: 350px;
+    height: 2px;
+    border: 0.1px solid #0000007a;
+    left: 260px;
+}
+
+.links{
+    position: absolute;
+    top: 851px;
+    left: 227px;
+}
+
+.links ul{
+    list-style: none;
+}
+
+.links ul li{
+    padding-top: 5px
+}
+.links ul li a{
+    color: dodgerblue;
+}
+
+
+
+
